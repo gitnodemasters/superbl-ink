@@ -2473,8 +2473,7 @@ section.section-plan .toggle-container {
 }
 section.section-plan .toggle-container .switch-toggles {
   position: relative;
-  /* width: 393px; */
-  width: 131px;
+  width: 393px;
   height: 49px;
   background: #fff;
   box-shadow: 0 10px 30px rgba(38, 39, 45, 0.1);
@@ -2542,8 +2541,7 @@ section.section-plan .toggle-container .switch-toggles.active:after {
   top: 3px;
 }
 section.section-plan .toggle-container .switch-toggles.active1:after {
-  /* left: 266px; */
-  left: 5px;
+  left: 266px;
   top: 3px;
 }
 section.section-plan .row {

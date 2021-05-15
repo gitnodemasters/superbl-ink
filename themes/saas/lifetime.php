@@ -6,14 +6,14 @@
       <p class="subtitle"><?php echo e("Know what you pay with our clear pricing structure. No hidden fees.") ?></p>
       <div class="toggle-container cf">
         <div class="switch-toggles">
-          <!-- <div class="monthly"><?php echo e("Monthly") ?></div>
+          <div class="monthly"><?php echo e("Monthly") ?></div>
           <div class="yearly">
             <?php echo e("Yearly") ?>
             <?php if ($discountMax): ?>
               <span><?php echo e("Save") ?> <?php echo $discountMax ?>%</span>
             <?php endif ?>
-          </div> -->
-          <div class="forever active"><?php echo e("Lifetime") ?></div>
+          </div>
+          <div class="forever"><?php echo e("Lifetime") ?></div>
         </div>
       </div>
     </div>
@@ -21,7 +21,7 @@
     <?php echo Main::message() ?>
     <div class="row">
       <div id="price-tables">
-        <!-- <div class="monthly cf">
+        <div class="monthly cf">
           <?php foreach ($free as $plan): ?>
             <div class="price-table" style="margin-left:13%;">
               <div class="table-inner text-center">
@@ -349,9 +349,9 @@
               </div>
             </div>
           <?php endforeach ?>
-        </div> -->
+        </div>
 
-        <div class="forever cf active">
+        <div class="forever cf">
           <?php foreach ($forlife as $plan): ?>
             <div class="price-table highlighted">
               <div class="table-inner text-center">
