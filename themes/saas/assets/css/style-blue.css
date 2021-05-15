@@ -2501,7 +2501,7 @@ section.section-plan .toggle-container .switch-toggles.active:after {
   top: 3px;
 }
 section.section-plan .row {
-  margin-top: 150px;
+  /* margin-top: 150px; */
 }
 section.section-plan .panel {
   position: relative;
