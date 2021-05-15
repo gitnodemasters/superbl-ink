@@ -2473,7 +2473,7 @@ section.section-plan .toggle-container {
 }
 section.section-plan .toggle-container .switch-toggles {
   position: relative;
-  width: 393px;
+  width: 131px;
   height: 49px;
   background: #fff;
   box-shadow: 0 10px 30px rgba(38, 39, 45, 0.1);
@@ -2526,7 +2526,7 @@ section.section-plan .toggle-container .switch-toggles:after {
   background: -moz-linear-gradient(45deg, #D202FF 0%, #2d5bd8 100%);
   background: -webkit-linear-gradient(45deg, #D202FF 0%, #2d5bd8 100%);
   background: linear-gradient(45deg, #D202FF 0%, #2d5bd8 100%);
-  left: 3px;
+  left: 5px;
   top: 3px;
   border-radius: 30px;
   -moz-border-radius: 30px;
@@ -2541,7 +2541,7 @@ section.section-plan .toggle-container .switch-toggles.active:after {
   top: 3px;
 }
 section.section-plan .toggle-container .switch-toggles.active1:after {
-  left: 266px;
+  left: 5px;
   top: 3px;
 }
 section.section-plan .row {
